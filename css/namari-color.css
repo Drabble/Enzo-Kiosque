@@ -103,7 +103,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    /*background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;*/
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/banner.jpg") no-repeat center top;
     background-size:cover;
 }
 
@@ -146,14 +146,21 @@ body {
     font-size:66px;
     line-height:60px;
     font-weight:800;
-    color:#111;
+    color:#fff;
 }
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:18px;
     font-weight:300;
-    color:#111;
+    color:#fff;
+}
+
+#banner {
+	color: white;
+}
+#header nav a, #header i{
+	color: white;
 }
 
 

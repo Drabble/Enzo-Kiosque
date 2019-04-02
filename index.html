@@ -13,6 +13,9 @@
 
     <!--Favicon-->
     <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+	
+	<!-- Jquery modal -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
     <!-- Main CSS Files -->
     <link rel="stylesheet" href="css/style.css">
@@ -28,6 +31,7 @@
 
     <!--Google Webfonts-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	
 </head>
 <body>
 
@@ -232,26 +236,156 @@
 				<h2 class="section-subtitle">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
 
 				<div class="row">
-					<a href="images/beers/Babylone.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/Babylone.jpg" alt="Landing Page"/><p class="text">Babylone</p></a>
-					<a href="images/beers/Drunk-Beard.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/Drunk-Beard.jpg" alt="Landing Page"/><p class="text">Drunk-Beard</p></a>
-					<a href="images/beers/Flying-Rabbit.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/Flying-Rabbit.jpg" alt="Landing Page"/><p class="text">Flying-Rabbit</p></a>
-					<a href="images/beers/Improbable.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/Improbable.jpg" alt="Landing Page"/><p class="text">Improbable</p></a>
-					<a href="images/beers/La-Muse.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/La-Muse.jpg" alt="Landing Page"/><p class="text">La Muse</p></a>
-					<a href="images/beers/La-Muse-2.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/La-Muse-2.jpg" alt="Landing Page"/><p class="text">La Muse</p></a>
-					<a href="images/beers/Nebuleuse.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/Nebuleuse.jpg" alt="Landing Page"/><p class="text">Nebuleuse</p></a>
-					<a href="images/beers/PomPom.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/PomPom.jpg" alt="Landing Page"/><p class="text">Pom Pom</p></a>
-					<a href="images/beers/White-Frontier.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/White-Frontier.jpg" alt="Landing Page"/><p class="text">White Frontier</p></a>
-					<a href="images/beers/Wild-Beer.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/beers/Wild-Beer.jpg" alt="Landing Page"/><p class="text">Wild Beer</p></a>
+					<a href="#beers1" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/Babylone.jpg" alt="Landing Page"/>
+						<p class="text">Babylone</p>
+					</a>
+					<div id="beers1" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#beers2" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/Drunk-Beard.jpg" alt="Landing Page"/>
+						<p class="text">Drunk-Beard</p>
+					</a>
+					<div id="beers2" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#beers3" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/Flying-Rabbit.jpg" alt="Landing Page"/>
+						<p class="text">Flying-Rabbit</p>
+					</a>
+					<div id="beers3" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#beers4" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/Improbable.jpg" alt="Landing Page"/>
+						<p class="text">Improbable</p>
+					</a>
+					<div id="beers4" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#beers5" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/La-Muse.jpg" alt="Landing Page"/>
+						<p class="text">La Muse</p>
+					</a>
+					<div id="beers5" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#beers6" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/La-Muse-2.jpg" alt="Landing Page"/>
+						<p class="text">La Muse</p>
+					</a>
+					<div id="beers6" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#beers7" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/Nebuleuse.jpg" alt="Landing Page"/>
+						<p class="text">Nebuleuse</p>
+					</a>
+					<div id="beers7" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#beers8" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/PomPom.jpg" alt="Landing Page"/>
+						<p class="text">Pom Pom</p>
+					</a>
+					<div id="beers8" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#beers9" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/White-Frontier.jpg" alt="Landing Page"/>
+						<p class="text">White Frontier</p>
+					</a>
+					<div id="beers9" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#beers10" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/beers/Wild-Beer.jpg" alt="Landing Page"/>
+						<p class="text">Wild Beer</p>
+					</a>
+					<div id="beers10" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
 				</div>
 
         </section>
@@ -265,14 +399,66 @@
 				<h2 class="section-subtitle">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
 
 				<div class="row">
-					<a href="images/skateboards/1.jpg.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/skateboards/1.jpg" alt="Magenta"/><p class="text">Magenta</p></a>
-					<a href="images/skateboards/2.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/skateboards/2.jpg" alt="Magenta"/><p class="text">Magenta</p></a>
-					<a href="images/skateboards/Magenta.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/skateboards/Magenta.jpg" alt="Magenta"/><p class="text">Magenta</p></a>
-					<a href="images/skateboards/Magenta2.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/skateboards/Magenta2.jpg" alt="Magenta"/><p class="text">Magenta</p></a>
+					<a href="#skateboards1" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/skateboards/1.jpg" alt="Magenta"/>
+						<p class="text">Magenta</p>
+					</a>
+					<div id="skateboards1" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#skateboards2" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/skateboards/2.jpg" alt="Magenta"/>
+						<p class="text">Magenta</p>
+					</a>
+					<div id="skateboards2" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#skateboards3" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/skateboards/Magenta.jpg" alt="Magenta"/>
+						<p class="text">Magenta</p>
+					</a>
+					<div id="skateboards3" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#skateboards4" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/skateboards/Magenta2.jpg" alt="Magenta"/>
+						<p class="text">Magenta</p>
+					</a>
+					<div id="skateboards4" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
 				</div>
 
         </section>
@@ -286,10 +472,36 @@
 				<h2 class="section-subtitle">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
 				
 				<div class="row clearfix">
-					<a href="images/cigars/Camacho.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/cigars/Camacho.jpg" alt="Landing Page"/><p class="text">Camacho</p></a>
-					<a href="images/cigars/OSA.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/cigars/OSA.jpg" alt="Landing Page"/><p class="text">OSA</p></a>
+					<a href="#cigars1" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/cigars/Camacho.jpg" alt="Landing Page"/>
+						<p class="text">Camacho</p>
+					</a>
+					<div id="cigars1" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#cigars2" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+					   <img src="images/cigars/OSA.jpg" alt="Landing Page"/>
+					   <p class="text">OSA</p>
+					</a>
+					<div id="cigars2" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
 				</div>
 
         </section>
@@ -303,18 +515,61 @@
 				<h2 class="section-subtitle">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
 
 				<div class="row">
-					<a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><p class="text">Magenta</p></a>
-					<a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><p class="text">Magenta</p></a>
-					<a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><p class="text">Magenta</p></a>
-					<a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><p class="text">Magenta</p></a>
-					<a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><p class="text">Magenta</p></a>
-					<a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow image-hover fadeIn"
-					   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><p class="text">Magenta</p></a>
+					<a href="#cbd1" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/>
+						<p class="text">Magenta</p>
+				    </a>
+					<div id="cbd1" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsuLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsuLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsuLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsuLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/><br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+								
+								Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu <br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#cbd2" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/>
+						<p class="text">Magenta</p>
+				    </a>
+					<div id="cbd2" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
+					<a href="#cbd3" rel="modal:open" class="col-3 wow image-hover fadeIn" data-wow-delay="0.7s">
+						<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/>
+						<p class="text">Magenta</p>
+				    </a>
+					<div id="cbd3" class="modal">
+						<div class="modal-content">
+							<h1>Magenta</h1>
+							<p>
+								Lorem Ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/>
+								
+								<a href="http://magenta.com">Magenta.com</a>
+								
+								Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsuLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsuLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsuLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsuLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu<br/><br/>
+								
+								<img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/><br/><br/>
+								
+								Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu <br/>
+							</p>
+							<a href="#" rel="modal:close">Close</a>
+						</div>
+					</div>
 				</div>
 
         </section>
@@ -438,8 +693,6 @@
 <!-- Include JavaScript resources -->
 <script src="js/jquery.1.8.3.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="js/featherlight.min.js"></script>
-<script src="js/featherlight.gallery.min.js"></script>
 <script src="js/jquery.enllax.min.js"></script>
 <script src="js/jquery.scrollUp.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
@@ -448,6 +701,7 @@
 <script src="js/images-loaded.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="js/site.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 
 </body>
 </html>
